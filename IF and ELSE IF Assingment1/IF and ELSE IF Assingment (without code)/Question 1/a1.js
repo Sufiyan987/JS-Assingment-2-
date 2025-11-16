@@ -1,4 +1,4 @@
-var num = =prompt ("Enter Number") {
+var num = +prompt ("Enter Number") {
     if (num === 0) {
         console.log("Zero");
     } else if (num % 2 === 0) {
@@ -8,3 +8,4 @@ var num = =prompt ("Enter Number") {
     }
 
 }
+
