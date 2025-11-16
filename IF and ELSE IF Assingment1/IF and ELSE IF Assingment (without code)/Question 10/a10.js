@@ -1,4 +1,4 @@
-function checkVotingEligibility(age) {
+var age = +prompt("Enter your age") {
     if (age >= 18) {
         return "Eligible to vote";
     } else if (age >= 16) {
@@ -6,4 +6,5 @@ function checkVotingEligibility(age) {
     } else {
         return "Not eligible to vote yet";
     }
+
 }
