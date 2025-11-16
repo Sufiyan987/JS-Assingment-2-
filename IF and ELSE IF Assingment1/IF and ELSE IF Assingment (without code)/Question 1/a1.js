@@ -1,4 +1,4 @@
-function checkNumberParity(num) {
+var num = =prompt ("Enter Number") {
     if (num === 0) {
         console.log("Zero");
     } else if (num % 2 === 0) {
@@ -6,4 +6,5 @@ function checkNumberParity(num) {
     } else {
         console.log("Odd number");
     }
+
 }
